@@ -1,0 +1,3 @@
+PuzzleGen: Program for generating puzzles computing Anders Buch's conjectural formula for the equivariant cohomology of the two-step flag variety
+Usage: PuzzleGen <number of rows in puzzle> - <left boundary labels> - <right boundary labels> - <bottom boundary labels> [-o <image output file>] [-r <number of puzzles per row in display>]
+Example: java PuzzleGen 6 - 1 2 0 0 2 1 - 1 2 0 2 0 1 - 2 1 2 0 1 0 -r 3 -o image.png
